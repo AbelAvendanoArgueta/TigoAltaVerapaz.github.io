@@ -38,6 +38,35 @@
   z-index: 2;
 }
 
+@font-face {
+  font-family: "TigoFont";
+  src: url("../fonts/tigo.otf") format("opentype");
+}
+
+.white-text-Alta-Verapaz {
+  font-family: "TigoFont", sans-serif;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  z-index: 3;
+}
+
+.blue-text-Alta-Verapaz {
+  font-family: "TigoFont", sans-serif;
+  position: absolute;
+  top: calc(65% + 5px);
+  left: calc(50% + 5px);
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  color:rgb(54, 107, 181);
+  text-align: center;
+  z-index: 2;
+}
+
 .first-cyan-arrow {
   position: absolute;
   top: 87%;
