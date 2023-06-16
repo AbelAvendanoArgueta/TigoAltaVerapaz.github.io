@@ -12,11 +12,11 @@
 
 .logo-container {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 25%;
-  height: 25%;
+  width: 35%;
+  height: 35%;
   background-image: url("../images/tigo_logo_white_glass.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -26,14 +26,110 @@
 
 .second-logo {
   position: absolute;
-  top: calc(50% + 5px);
+  top: calc(35% + 5px);
   left: calc(50% + 5px);
   transform: translate(-50%, -50%);
-  width: 25%;
-  height: 25%;
+  width: 35%;
+  height: 35%;
   background-image: url("../images/tigo_logo_blue_glass.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   z-index: 2;
+}
+
+.first-cyan-arrow {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/up_arrow_cyan.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.second-cyan-arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/up_arrow_cyan.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.third-cyan-arrow {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/up_arrow_cyan.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.first-green-arrow {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/up_arrow_green.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: fade-in-out 1.5s infinite;
+  animation-delay: 1s;
+}
+
+.second-green-arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/up_arrow_green.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: fade-in-out 1.5s infinite;
+  animation-delay: 0.5s;
+}
+
+.third-green-arrow {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 10%;
+  background-image: url("../images/up_arrow_green.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: fade-in-out 1.5s infinite;
+  animation-delay: 0s;
 }
