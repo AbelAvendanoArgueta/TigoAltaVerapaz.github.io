@@ -68,6 +68,34 @@
   z-index: 2;
 }
 
+/* Temporary button */
+
+.custom-button {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  height: 15%;
+  background-image: url("../images/button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-button a {
+  font-family: "TigoFont", sans-serif;
+  text-decoration: none;
+  color: rgb(54, 107, 181);
+  font-size: 2vw;
+}
+
+/* Temporary button end*/
+
 .first-cyan-arrow {
   position: absolute;
   top: 87%;
@@ -163,5 +191,3 @@
   animation: fade-in-out 1.5s infinite;
   animation-delay: 0s;
 }
-
-/* Splash Screen */
